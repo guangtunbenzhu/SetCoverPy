@@ -38,6 +38,29 @@ SetCoverPy
     The Archetype test data can be retrieved here:
       http://www.pha.jhu.edu/~gz323/scp/GalaxyTest/
 
+    Run the test
+    -------------
+    Input: 
+        -- a_matrix[mrows, ncols], the binary relationship matrix
+           a_matrix[irow, jcol] = True if jcol covers irow
+        -- cost[ncols], the cost of columns. 
+           I recommend using normalized cost: cost/median(cost)
+
+    Instantiation: 
+        >> a_matrix = np.load('./BeasleyOR/scpa4_matrix.npy')
+        >> cost = np.load('./BeasleyOR/scpa4_cost.npy')
+        >> g = setcover.SetCover(a_matrix, cost)
+    Run the solver: 
+        >> solution, time_used = g.SolveSCP()
+           ......
+           Final Best solution: 234
+           Took 1.287 minutes to reach current solution.
+           (Results of course will depend on the configuration of your machine)
+
+    Output:
+        -- g.s, the (near-optimal) minimal set of columns, a binary 1D array, 
+           g.s[jcol] = True if jcol is in the solution
+        -- g.total_cost, the total cost of the (near-optimal) minimal set of columns
 
 Dependencies
 =============
