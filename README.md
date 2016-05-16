@@ -39,6 +39,14 @@ SetCoverPy
       http://www.pha.jhu.edu/~gz323/scp/GalaxyTest/
 
 
+Dependencies
+=============
+    Python >3.5.1
+    Numpy >1.11.0
+    Scipy >0.17.0
+
+    I did not fully test the code on earlier versions.
+
 Contact Me
 =============
     As all the codes, this code can always be improved and any feedback will be greatly appreciated.
