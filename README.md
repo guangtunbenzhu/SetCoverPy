@@ -2,6 +2,7 @@ SetCoverPy
 =============
 
     SetCoverPy
+    ----------
 
     SetCoverPy is developed and maintained by Guangtun Ben Zhu, 
     It is designed to find an (near-)optimal solution to the set cover problem (SCP) as 
@@ -28,6 +29,7 @@ SetCoverPy
 
 
     Test data
+    ----------
 
     Test data provided with this package only includes on instance from Beasley's OR Library.
     The rest of the Beasley's OR Library can be retrieved here:
@@ -36,3 +38,11 @@ SetCoverPy
     The Archetype test data can be retrieved here:
       http://www.pha.jhu.edu/~gz323/scp/GalaxyTest/
 
+
+Contact Me
+=============
+    As all the codes, this code can always be improved and any feedback will be greatly appreciated.
+
+
+    Sincerely,
+    Guangtun Ben Zhu
