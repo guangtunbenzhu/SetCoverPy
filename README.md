@@ -31,12 +31,13 @@ SetCoverPy
     Test data
     ----------
 
-    Test data provided with this package only includes on instance from Beasley's OR Library.
+    Test data provided with this package only includes one instance from Beasley's OR Library.
     The rest of the Beasley's OR Library can be retrieved here:
       http://www.pha.jhu.edu/~gz323/scp/BeasleyOR/  
 
     The Archetype test data can be retrieved here:
       http://www.pha.jhu.edu/~gz323/scp/GalaxyTest/
+
 
     Run the test
     -------------
