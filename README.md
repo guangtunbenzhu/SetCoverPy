@@ -28,6 +28,15 @@ SetCoverPy
         >> g.greedy()
 
 
+    How to Install
+    ----------
+    I recommend using pip to install the code:
+    > pip install SetCoverPy
+
+    If you are inspired and would like to contribute, you are welcome to clone or fork the repository. 
+    Please do drop me a message if you are interested in doing so.
+
+
     Test data
     ----------
 
