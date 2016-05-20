@@ -42,10 +42,10 @@ SetCoverPy
 
     Test data provided with this package only includes one instance from Beasley's OR Library.
     The rest of the Beasley's OR Library can be retrieved here:
-      http://www.pha.jhu.edu/~gz323/scp/BeasleyOR/  
+      http://www.pha.jhu.edu/~gz323/scp/Data/BeasleyOR/  
 
     The Archetype test data can be retrieved here:
-      http://www.pha.jhu.edu/~gz323/scp/GalaxyTest/
+      http://www.pha.jhu.edu/~gz323/scp/Data/ExtragalacticTest/
 
 
     Run the test
@@ -71,6 +71,24 @@ SetCoverPy
         -- g.s, the (near-optimal) minimal set of columns, a binary 1D array, 
            g.s[jcol] = True if jcol is in the solution
         -- g.total_cost, the total cost of the (near-optimal) minimal set of columns
+
+    Additional tool
+    -------------
+    The mathutils module includes two function for (quick) estimation of the weighted chi-squared 
+    distance, quick_amplitude and quick_totalleastsquares.
+    If you have two vectors x and y with errors x_err and y_err, they perform a least chi-squared 
+    fitting for the amplitude a in y = a*x in an iterative manner.
+    For example:
+
+     > from SetCoverPy import mathutils 
+     > a, chi2 = mathutils.quick_amplitude(x, y, xerr, yerr)
+     or
+     > a, chi2 = mathutils.quick_totalleastsquares(x, y, xerr, yerr)
+
+     The difference between the two functions is the second includes an optimization step
+     with the optimize module in SciPy and is considerably slower, 
+     though it provides (slightly) more accurate results.
+
 
 Dependencies
 =============
