@@ -1,6 +1,9 @@
 SetCoverPy
 =============
 
+A heuristic solver for the set cover problem
+
+
     SetCoverPy
     ----------
 
