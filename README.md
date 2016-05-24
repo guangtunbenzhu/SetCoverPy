@@ -4,6 +4,16 @@ SetCoverPy
 A heuristic solver for the set cover problem
 
 
+    Set Cover Problem
+    ----------
+    The Set Cover Problem (SCP) is one of the NP-complete problems in computer science.
+    It has many real-life applications, such as crew assigning for trains and airlines,
+    selection of fire station/school locations etc. I adopted it for classification 
+    purposes and developed a new Archetype technique.
+
+    Because of its NP-completeness, there is no known efficient exact algorithm for SCP.
+    I have developed a heuristic method and implemented in Python, which I release here.
+
     SetCoverPy
     ----------
 
@@ -74,6 +84,7 @@ A heuristic solver for the set cover problem
         -- g.s, the (near-optimal) minimal set of columns, a binary 1D array, 
            g.s[jcol] = True if jcol is in the solution
         -- g.total_cost, the total cost of the (near-optimal) minimal set of columns
+
 
     Additional tool
     -------------
