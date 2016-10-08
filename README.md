@@ -14,6 +14,7 @@ A heuristic solver for the set cover problem
     Because of its NP-completeness, there is no known efficient exact algorithm for SCP.
     I have developed a heuristic method and implemented in Python, which I release here.
 
+
     SetCoverPy
     ----------
 

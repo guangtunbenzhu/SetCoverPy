@@ -7,7 +7,7 @@
 #      http://people.brunel.ac.uk/~mastjjb/jeb/info.html
 #    They can also be retrieved from Guangtun Ben Zhu's website in numpy data format:
 #    (Use at your own risk! :-p) 
-#      http://www.pha.jhu.edu/~gz323/scp/BeasleyOR/
+#      http://www.pha.jhu.edu/~gz323/scp/Data/BeasleyOR/
 
 
 #    
