@@ -1,6 +1,8 @@
 ## Summary
-#    These are the results from ONE run on May 14th, 2016 on Macbook Pro, with 16 GB, 2.8GHz Quad Core
-#    by Guangtun Ben Zhu 
+#    These are test results run in May, 2016 on Macbook Pro, with 16 GB, 2.8GHz Quad Core
+#    by Guangtun Ben Zhu. These are the results from a random run (not the
+#    best run). Note the solution can be signicantly improved with tighter
+#    converging criteria and/or more trials.
 
 ## Test data (All copyrights go to John Beasley):
 #    The test data can be retrieved from Beasley's OR library:
