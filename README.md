@@ -56,10 +56,11 @@ A heuristic solver for the set cover problem
 
     Test data provided with this package only includes one instance from Beasley's OR Library.
     The rest of the Beasley's OR Library can be retrieved here:
-      http://www.pha.jhu.edu/~gz323/scp/Data/BeasleyOR/  
+      https://s3.us-east-2.amazonaws.com/setcoverproblem/BeasleyOR/scp_BeasleyOR_numpyformat.tar.gz
 
     The Archetype test data can be retrieved here:
-      http://www.pha.jhu.edu/~gz323/scp/Data/ExtragalacticTest/
+      https://s3.us-east-2.amazonaws.com/setcoverproblem/ExtragalacticTest/Extragalatic_Archetype_testsample_spec.fits
+      https://s3.us-east-2.amazonaws.com/setcoverproblem/ExtragalacticTest/Extragalatic_Archetype_testsample.fits
 
 
     Run the test
